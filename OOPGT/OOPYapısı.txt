@@ -1,0 +1,69 @@
+﻿
+OOP (Object-Oriented-Programming)
+
+OOP yazılım tasarımını işlevler ve mantık yerine, veri veya nesneler etrafında düzenleyen bir programlama dili modelidir
+
+OOP 4 Temel özelliği vardır:
+
+Soyutlama(Abstraction)
+Kapsülleme(Encapsulation)
+Miras Alma(Inheritance)
+Çok Biçimlilik(Polymorphism)
+
+Soyutlama (Abstraction)
+Bir sınıfın özelliklerinin ve davranışlarının tanımlanmasına denir. 
+Örneğin: Bir kişinin adı, soyadı, yaşı, boyu, kilosu, saç rengi gibi özellikleridir. 
+Kişinin yetenekleri davranışları içerisinde yer alır ve metotlar ile saklanır.
+Öetle gerekli olanları göster gerekli olmayanları gösterme.
+
+Kapsülleme (Encapsulation)
+Davranış ve özellikler sınıfta soyutlanır ve saklanır.
+Kapsülleme ile hangi özellik ve davranışın dışarıdan kullanılacağını belirleyebiliriz. 
+Örneğin: Kişinin bizi ilgilendirmeyen kısımlarını private ederek yani saklayarak gizleyebiliriz. Bu olaya kapsülleme adı verilir.
+
+Kapsülleme Public, Private ve Protected olarak 3 kısımda incelenir.
+Public: Herkesin kullanabildiği özellik ve davranışlara verilen isimdir.
+Private: Sadece kendi sınıfında kullanılan özellik ve davranışlara verilen isimdir.
+Protected: Sınıf ve Miras Alınan alt sınıflarda kullanılmaya açık olanlara verilen isimdir.
+
+
+// ENCAPSULATION
+// Encapsulatıon, nesnelerimizdeki field'ların kontrollü bir şekilde dışarıya açılmasıdır.
+// Nesnelerimizi başkalarının yanlış kullanımlarından korumak için kontrolsüz değişime kapatmaktır.
+// c#'da encapsulatıon iki şekilde uygulanır.	Metot ile ve Property ile
+
+
+Miras Alma (Inheritance)
+Alt ve üst sınıfın ortak özelliklerinden alabilme sistemine Miras Alma denir. 
+Örneğin; Bir nesneni diğer bir nesne ile ortak özelliklerindeki verileri alabilir.
+
+Çok Biçimlilik (Polymorphism)
+Alt Sınıf ve Üst Sınıfın özelliklerinden farklı şekilde davranışlar göstermesine Çok Biçimlilik denir.
+Örneğin; Bir nesnenin diğer bir nesneyle ortak özellikleri olmasına rağmen farklı özelliklerininde tanımlanabilmesine denir.
+
+
+
+
+OOP CLASS YAPISI
+
+OOP'de bir object oluşturmak için öncelikle o objenin modellenmesi gerekir.
+Bir objenin modelini oluşturmak içinse class yapısı kullanılır.
+
+Classlar bir referans türüdür.
+
+Bir class tanımlamasında tanımlanan yerde (namespace içinde/dışında) aynı isimde birden fazla class tanımlanamaz.	
+
+Bir class tanımlandığında o class adı bir türdür. Haliyle o türü kullanabilmek için direkt olarak class adını kullanırız.
+
+
+Field = Nesne içersinde veri depoladığımız/tuttuğumuz alanlardır.	Class içersindeki değişkenlerdir.	Herhangi bir türden olabilir.
+
+
+//PROPERTY
+// Nesne içersinde özellik/property sağlar.
+// Esasında bir metottur. Ancak fiziksel olarak metottan farkı parametre almaz, içersinde get ve set olan iki adet blok alır.
+
+
+
+
+
